@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Structure">
+      <UniqueIdentifier>{fed9a258-5901-4547-bf9f-a3af8ff63ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BasicElements">
+      <UniqueIdentifier>{1d8f9e0e-4b2d-4cfb-a53b-318cfb86ee41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BasicElements">
+      <UniqueIdentifier>{60201072-a00f-422f-aa7d-40c1f20d1355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure">
+      <UniqueIdentifier>{452ad4cd-acc1-4b23-a2bb-1a595649a93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BasicElements\Input">
+      <UniqueIdentifier>{2ee1546e-e64c-48f1-ac75-f1dbd4905139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BasicElements\Input">
+      <UniqueIdentifier>{c2ef03d0-98a5-4614-a5e6-dcffc35ddb93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Analysis">
+      <UniqueIdentifier>{ea5b56b9-497f-441c-b904-55f45c217956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{dfdeb93e-eb6a-4861-a02e-51db83c0f977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Analysis">
+      <UniqueIdentifier>{0db09d82-6249-4fb6-85f2-957949be93d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BasicElements\Math">
+      <UniqueIdentifier>{ad5ca967-3e01-472b-85aa-db65de6683d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BasicElements\Math">
+      <UniqueIdentifier>{4389bfae-4178-4d3c-a689-3ab030a869ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{55ebaf7a-7ec7-4aae-bf6b-3e3ff8ce06fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="transformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionScreen.cpp">
+      <Filter>Source Files\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="KeySubscription.cpp">
+      <Filter>Source Files\BasicElements\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseSubscription.cpp">
+      <Filter>Source Files\BasicElements\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMotionSubscription.cpp">
+      <Filter>Source Files\BasicElements\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSetup.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoCam.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MImage.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorVOA.cpp">
+      <Filter>Source Files\BasicElements\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageScreen.cpp">
+      <Filter>Source Files\BasicElements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationArgs.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionScreen.h">
+      <Filter>Header Files\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseSubscription.h">
+      <Filter>Header Files\BasicElements\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMotionSubscription.h">
+      <Filter>Header Files\BasicElements\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSubscription.h">
+      <Filter>Header Files\BasicElements\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoCam.h">
+      <Filter>Header Files\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSetup.h">
+      <Filter>Header Files\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MImage.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorVOA.h">
+      <Filter>Header Files\BasicElements\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageScreen.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>Header Files\BasicElements</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Transformations.rc">
+      <Filter>Header Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

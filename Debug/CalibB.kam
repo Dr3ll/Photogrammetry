@@ -1,0 +1,17 @@
+[EXTERN]
+X=227.1754520516	;	X-Projektionszentrum [mm]
+Y=87.6030985298	;	Y-Projektionszentrum [mm]
+Z=931.8633170092	;	Z-Projektionszentrum [mm]
+Om=-0.0067153522	;	Omega-Rotation [rad]
+Phi=0.1421815338	;	Phi-Rotation   [rad]
+Kap=-0.0044256576	;	Kappa-Rotation [rad]
+
+[INTERN]
+Hx=340.3441521211	;	X-Hauptpunkt [Pixel]
+Hy=262.9343965588	;	Y-Hauptpunkt [Pixel]
+C=-1713.9955580162	;	Kamerakonstante [Pixel]
+Sy=-0.9998850336	;	Y-Pixelscalierung negativ, wenn Bildursprung linksoben
+R0=200.0000000000	;	zweiter Nulldurchgang [Pixel]
+A1=-1.505455e-007	;	Verzeichnung1
+A2=3.298253e-014	;	Verzeichnung2
+

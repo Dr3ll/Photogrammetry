@@ -11,7 +11,8 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
+[Dd]ebug/Transformations.exe
+[Dd]ebug/Transformations.pdb
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -21,6 +22,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+Sequenz_Zylinder
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -250,3 +252,5 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/Sequenz_Zylinder/A
+/Transformations/Debug
