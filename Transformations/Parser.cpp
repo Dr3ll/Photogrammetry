@@ -18,7 +18,6 @@ namespace Protoone
 
 		//SetCurrentDirectory(setDirectory);
 		DWORD error = GetLastError();
-		//_buff = setDirectory;
 
 		// prepare filename string (count images to iterate over them; filename has to be image number plus leading 0s to fill up to 6 digits)
 		WIN32_FIND_DATA ffd;
@@ -47,18 +46,5 @@ namespace Protoone
 		counter--;		// account for directory-entry dummy file
 
 		_buff = convertToImageName(counter);
-
-		// read images
-
-		//vector<CImage> out;
-
-		//for(int i=0; i<counter; ++i)
-		//{
-		//	//out.push_back(CImage(convertToImageName(i)));
-		//}
-
-		//SetCurrentDirectory(_resourceDirectory);
-
-		//return out;
 	}
 }

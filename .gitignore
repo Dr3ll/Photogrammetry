@@ -11,8 +11,7 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/Transformations.exe
-[Dd]ebug/Transformations.pdb
+[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/

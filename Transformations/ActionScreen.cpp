@@ -45,7 +45,6 @@ namespace Protoone
 		{
 		int x(-1), y(-1);
 
-		std::cout << "\nSource images and camera calibrations need to be in the same folder as the executable.\n";
 		std::cout << "\nPlease enter command\n";
 		std::cout << "\nc : creates visualisation\n";
 		std::cout << "\nr : allows to set source image resolution\n";
@@ -162,7 +161,7 @@ namespace Protoone
 	{
 		long long int snapZero = StopWatch::GetTimeMs64();
 
-		Parser parser("Sequenz_Zylinder"); 
+		Parser parser("Ressources"); 
 		_setup._imageA = parser.readImage("A.bmp");
 		_setup._imageB = parser.readImage("B.bmp");
 
